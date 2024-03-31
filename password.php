@@ -14,14 +14,14 @@
 //     }
 // }
 
-$name = "beka";
+// $name = "Beka";
 
-$password = $_POST['password'];
-$password_confirmation = $_POST['password_confirmation'];
+// $password = $_POST['password'];
+// $password_confirmation = $_POST['password_confirmation'];
 
-// echo ($password === $password_confirmation) ? "your Password is correct" : "your Password Wrong!!" . $name; 
-if($password === $password_confirmation) {
-    echo "your Password is correct" . $name;
-} else {
-    echo "your Password Wrong!!" . $name;
-}
+// // echo ($password === $password_confirmation) ? "your Password is correct" : "your Password Wrong!!" . $name; 
+// if($password === $password_confirmation) {
+//     echo "your Password is correct" . $name;
+// } else {
+//     echo "your Password Wrong!!" . $name;
+// }

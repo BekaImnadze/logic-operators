@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* ლოგიკური ოპერატორები */
+/* 
 body {
   background-image: url("./assets/Background\ 8bit\ galaxy.jpg");
   background-repeat: no-repeat;
@@ -106,4 +108,29 @@ body {
     background-color: gray;
     color: white;
     transform: scale(0.3s);
+}  */
+
+/* კალკულაცია */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 15px;
+
 }
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:15px;
+}
+
+
+.container .inputs style-input{
+  border: 1.5px solid black;
+  height: 15px;
+}
+
